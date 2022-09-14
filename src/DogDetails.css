@@ -1,0 +1,68 @@
+body {
+  background-color: #282c34;
+}
+
+.DogDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  padding: 2rem;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.DogDetails-header {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.DogDetails img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.DogDetails-facts {
+  list-style-type: none;
+  padding: 0;
+}
+
+.DogDetails li {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.DogDetails-p-tag {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.DogDetails-buttons {
+  background-color: #282c34;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.DogDetails-button a {
+  border: none;
+  color: black;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+}

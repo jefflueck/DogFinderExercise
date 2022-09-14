@@ -1,0 +1,40 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #282c34;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+.Home-header {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.Home-paragraphs {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Home-button a {
+  border: none;
+  color: black;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+}
+
+.Home-button a.active {
+  background-color: #61dafb;
+}
+
+.Home-button {
+  margin-top: 1rem;
+}
